@@ -62,3 +62,9 @@ NVIDIA-SMI 595.71.05
 RTX 3050 ti detected successfully
 Containers operational
 Goblinization complete
+
+## Author
+
+Cristian Gabriel / Malrokay
+
+Learning Linux, Docker, Cloud and Infrastructure Engineering one cursed YAML file at a time.
