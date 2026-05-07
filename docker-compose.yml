@@ -1,0 +1,21 @@
+services:
+
+  nginx:
+    image: nginx
+    ports:
+      - "8080:80"
+
+  whoami:
+    image: traefik/whoami
+    ports:
+      - "8081:80"
+
+  uptime-kuma:
+    image: louislam/uptime-kuma
+    ports:
+      - "3001:3001"
+    volumes:
+      - uptime-kuma:/app/data
+
+volumes:
+  uptime-kuma:
