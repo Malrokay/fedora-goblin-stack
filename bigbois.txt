@@ -1,0 +1,3 @@
+-rwxr-xr-x. 1 root root      99M May  1 02:00 dockerd
+-rwxr-xr-x. 1 root root      44M Apr 14 02:00 podman
+-rwxr-xr-x. 1 root root      43M Apr 14 02:00 containerd
